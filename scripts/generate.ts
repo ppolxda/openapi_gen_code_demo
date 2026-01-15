@@ -34,7 +34,7 @@ async function main() {
   await generateApi({
     name: "api.ts",
     output: outputDir,
-    httpClientType: "fetch",
+    httpClientType: "axios",
     modular: true,
     generateClient: true,
     defaultResponseType: "void",
